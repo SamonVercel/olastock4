@@ -19,9 +19,9 @@
     transform: translateY(0);
   }
   48% {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
   }
-  50% {
+  49% {
     transform: translateY(0);
   }
   100% {
