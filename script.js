@@ -17,8 +17,8 @@ function updateCountdown() {
     const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
     // Update HTML elements
-    document.getElementById("days").textContent = days;
-    document.getElementById("hours").textContent = hours;
+    document.getElementById("days").textContent = days + "0";
+    document.getElementById("hours").textContent = hours + "0";
     document.getElementById("minutes").textContent = minutes;
     document.getElementById("seconds").textContent = seconds;
   } else {
